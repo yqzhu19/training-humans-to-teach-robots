@@ -2,15 +2,12 @@
 
 Project page for our **ICRA 2026** paper, by Yuqing Zhu, Endong Sun, and Matthew Howard.
 
-## 🔗 Live site
+## 🔗 Live site (published)
 
 **https://yqzhu19.github.io/training-humans-to-teach-robots/**
 
 - 📄 Paper (PDF): https://yqzhu19.github.io/training-humans-to-teach-robots/static/pdf/paper.pdf
 - 💻 Repo: https://github.com/yqzhu19/training-humans-to-teach-robots
-
-> If the live link doesn't load yet, GitHub Pages just needs to be turned on once —
-> see "Publishing" below.
 
 ## What's here
 
