@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- ============================================================
+       PLACEHOLDERS: Search this file for [[ ]] to find every
+       spot you need to edit (title, authors, links, abstract, etc.)
+       ============================================================ -->
+  <title>[[PAPER TITLE]] — ICRA 2026</title>
+  <meta name="description" content="[[Short one-line description of the paper for search engines / link previews]]">
+
+  <!-- Social / link-preview cards (optional but recommended) -->
+  <meta property="og:title" content="[[PAPER TITLE]]">
+  <meta property="og:description" content="[[Short one-line description]]">
+  <meta property="og:image" content="static/images/teaser.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="static/images/favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts (Google Noto / Lato — the classic academic look) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Noto+Sans:wght@400;500;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+  <!-- ===================== TITLE / AUTHORS ===================== -->
+  <header class="hero">
+    <div class="container">
+      <h1 class="title">[[PAPER TITLE]]</h1>
+
+      <p class="authors">
+        <!-- Add/remove author spans as needed. Superscript numbers map to affiliations below. -->
+        <span class="author"><a href="#">[[Author One]]</a><sup>1</sup></span>
+        <span class="author"><a href="#">[[Author Two]]</a><sup>1,2</sup></span>
+        <span class="author"><a href="#">[[Author Three]]</a><sup>2</sup></span>
+        <span class="author"><a href="#">[[Author Four]]</a><sup>1</sup></span>
+      </p>
+
+      <p class="affiliations">
+        <span><sup>1</sup>[[Affiliation One]]</span>
+        <span><sup>2</sup>[[Affiliation Two]]</span>
+      </p>
+
+      <p class="conference">IEEE International Conference on Robotics and Automation (ICRA) 2026</p>
+
+      <!-- ===================== LINK BUTTONS ===================== -->
+      <div class="link-buttons">
+        <a class="btn" href="[[link to PDF]]" target="_blank" rel="noopener">
+          <span class="icon">&#128196;</span> Paper
+        </a>
+        <a class="btn" href="[[link to arXiv]]" target="_blank" rel="noopener">
+          <span class="icon">&#119909;</span> arXiv
+        </a>
+        <a class="btn" href="[[link to GitHub repo]]" target="_blank" rel="noopener">
+          <span class="icon">&#128187;</span> Code
+        </a>
+        <a class="btn" href="#video">
+          <span class="icon">&#9654;</span> Video
+        </a>
+        <a class="btn" href="[[link to dataset]]" target="_blank" rel="noopener">
+          <span class="icon">&#128190;</span> Data
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== TEASER IMAGE ===================== -->
+  <section class="section teaser">
+    <div class="container">
+      <img src="static/images/teaser.png" alt="[[Teaser figure: a single image summarizing the paper]]">
+      <p class="caption">
+        <strong>[[Figure caption.]]</strong> [[One or two sentences describing the teaser figure
+        and the key idea of your method.]]
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== VIDEO ===================== -->
+  <section id="video" class="section">
+    <div class="container">
+      <h2>Video</h2>
+      <div class="video-wrapper">
+        <!-- Option A: YouTube embed. Replace VIDEO_ID with your YouTube video id. -->
+        <iframe src="https://www.youtube.com/embed/[[VIDEO_ID]]"
+                title="Project video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        <!-- Option B: local mp4 — comment out the iframe above and uncomment below:
+        <video controls poster="static/images/teaser.png">
+          <source src="static/videos/demo.mp4" type="video/mp4">
+        </video>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABSTRACT ===================== -->
+  <section class="section">
+    <div class="container narrow">
+      <h2>Abstract</h2>
+      <p class="abstract">
+        [[Paste your abstract here. A good project-page abstract is 4–8 sentences:
+        motivate the problem, state what you propose, summarize the key result, and
+        end with the headline takeaway. Keep it readable for a general robotics audience.]]
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== METHOD ===================== -->
+  <section class="section alt">
+    <div class="container">
+      <h2>Method</h2>
+      <img src="static/images/method.png" alt="[[Method / system overview figure]]">
+      <p class="caption">
+        <strong>[[Method overview.]]</strong> [[Describe your pipeline / architecture.
+        Walk the reader through the figure left-to-right.]]
+      </p>
+      <div class="narrow">
+        <p>
+          [[Optional supporting paragraph. Explain the core technical contribution in a
+          paragraph or two. You can add more <img> + caption blocks above for additional
+          figures.]]
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESULTS GALLERY ===================== -->
+  <section class="section">
+    <div class="container">
+      <h2>Results</h2>
+      <p class="narrow center">[[Optional sentence introducing the qualitative results below.]]</p>
+      <div class="gallery">
+        <figure>
+          <img src="static/images/result1.png" alt="[[Result 1]]">
+          <figcaption>[[Caption for result 1]]</figcaption>
+        </figure>
+        <figure>
+          <img src="static/images/result2.png" alt="[[Result 2]]">
+          <figcaption>[[Caption for result 2]]</figcaption>
+        </figure>
+        <figure>
+          <img src="static/images/result3.png" alt="[[Result 3]]">
+          <figcaption>[[Caption for result 3]]</figcaption>
+        </figure>
+        <figure>
+          <img src="static/images/result4.png" alt="[[Result 4]]">
+          <figcaption>[[Caption for result 4]]</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BIBTEX ===================== -->
+  <section class="section alt">
+    <div class="container narrow">
+      <h2>BibTeX</h2>
+      <pre class="bibtex"><code>@inproceedings{[[citekey]],
+  title     = {[[PAPER TITLE]]},
+  author    = {[[Last, First and Last, First and ...]]},
+  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
+  year      = {2026}
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container narrow center">
+      <p>
+        This website is licensed under a
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        Template adapted from the
+        <a href="https://github.com/nerfies/nerfies.github.io" target="_blank" rel="noopener">Academic Project Page</a> style.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
