@@ -3,17 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- ============================================================
-       PLACEHOLDERS: Search this file for [[ ]] to find every
-       spot you need to edit (title, authors, links, abstract, etc.)
-       ============================================================ -->
   <title>Training Humans to Teach Robots — ICRA 2026</title>
   <meta name="description" content="Training Humans to Teach Robots: Large and Lasting Skill Gains. A machine-teaching framework that trains novices to teach robots more effectively via learning from demonstration. ICRA 2026.">
 
-  <!-- Social / link-preview cards (optional but recommended) -->
+  <!-- Social / link-preview cards -->
   <meta property="og:title" content="Training Humans to Teach Robots: Large and Lasting Skill Gains">
   <meta property="og:description" content="A machine-teaching framework that trains novices to teach robots more effectively via learning from demonstration. ICRA 2026.">
-  <meta property="og:image" content="static/images/teaser.png">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -35,14 +30,9 @@
       <h1 class="title">Training Humans to Teach Robots:<br>Large and Lasting Skill Gains</h1>
 
       <p class="authors">
-        <!-- Add/remove author spans as needed. Superscript numbers map to affiliations below. -->
-        <span class="author"><a href="#">Yuqing Zhu</a><sup>1</sup></span>
-        <span class="author"><a href="#">Endong Sun</a><sup>1</sup></span>
-        <span class="author"><a href="#">Matthew Howard</a><sup>1</sup></span>
-      </p>
-
-      <p class="affiliations">
-        <span><sup>1</sup>[[Affiliation — e.g. King's College London]]</span>
+        <span class="author"><a href="#">Yuqing Zhu</a></span>
+        <span class="author"><a href="#">Endong Sun</a></span>
+        <span class="author"><a href="#">Matthew Howard</a></span>
       </p>
 
       <p class="conference">IEEE International Conference on Robotics and Automation (ICRA) 2026</p>
@@ -52,129 +42,20 @@
         <a class="btn" href="static/pdf/paper.pdf" target="_blank" rel="noopener">
           <span class="icon">&#128196;</span> Paper
         </a>
-        <a class="btn" href="[[link to arXiv]]" target="_blank" rel="noopener">
-          <span class="icon">&#119909;</span> arXiv
-        </a>
-        <a class="btn" href="[[link to GitHub repo]]" target="_blank" rel="noopener">
-          <span class="icon">&#128187;</span> Code
-        </a>
-        <a class="btn" href="#video">
-          <span class="icon">&#9654;</span> Video
-        </a>
-        <a class="btn" href="[[link to dataset]]" target="_blank" rel="noopener">
-          <span class="icon">&#128190;</span> Data
-        </a>
       </div>
     </div>
   </header>
-
-  <!-- ===================== TEASER IMAGE ===================== -->
-  <section class="section teaser">
-    <div class="container">
-      <img src="static/images/teaser.png" alt="[[Teaser figure: a single image summarizing the paper]]">
-      <p class="caption">
-        <strong>[[Figure caption.]]</strong> [[One or two sentences describing the teaser figure
-        and the key idea of your method.]]
-      </p>
-    </div>
-  </section>
 
   <!-- ===================== VIDEO ===================== -->
   <section id="video" class="section">
     <div class="container">
       <h2>Video</h2>
       <div class="video-wrapper">
-        <!-- Option A: YouTube embed. Replace VIDEO_ID with your YouTube video id. -->
-        <iframe src="https://www.youtube.com/embed/[[VIDEO_ID]]"
-                title="Project video" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <!-- Option B: local mp4 — comment out the iframe above and uncomment below:
-        <video controls poster="static/images/teaser.png">
-          <source src="static/videos/demo.mp4" type="video/mp4">
+        <video controls preload="metadata">
+          <source src="ICRA26_1579_VI_fi.mp4" type="video/mp4">
+          Your browser does not support the video tag.
         </video>
-        -->
       </div>
-    </div>
-  </section>
-
-  <!-- ===================== ABSTRACT ===================== -->
-  <section class="section">
-    <div class="container narrow">
-      <h2>Abstract</h2>
-      <p class="abstract">
-        Recent evidence has shown that, contrary to expectations, it is difficult for novices to
-        teach robots tasks through learning from demonstration (LfD). Novices often struggle with
-        understanding the relationship between robot states and actions, leading to suboptimal
-        demonstrations. This paper introduces a framework that leverages machine teaching algorithms
-        to train novices in a controlled, ideal environment where optimal control parameters are
-        predefined. The training enables participants to internalise fundamental control principles,
-        preparing them to adapt to new skills that share similar properties. The study evaluates
-        whether such teaching ability is (i) retained beyond the training period (including a
-        long-term follow-up) and (ii) generalised so that novices teach robots more effectively in
-        environments where control parameters are not predefined. It reports a series of
-        between-subjects studies that demonstrate that trained novice teachers achieve a 75%
-        improvement in teaching ability, with these gains retained even after guidance is removed,
-        and exhibit a 71% enhancement in applying skills beyond the training content.
-      </p>
-    </div>
-  </section>
-
-  <!-- ===================== METHOD ===================== -->
-  <section class="section alt">
-    <div class="container">
-      <h2>Method</h2>
-      <img src="static/images/method.png" alt="[[Method / system overview figure]]">
-      <p class="caption">
-        <strong>[[Method overview.]]</strong> [[Describe your pipeline / architecture.
-        Walk the reader through the figure left-to-right.]]
-      </p>
-      <div class="narrow">
-        <p>
-          [[Optional supporting paragraph. Explain the core technical contribution in a
-          paragraph or two. You can add more <img> + caption blocks above for additional
-          figures.]]
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== RESULTS GALLERY ===================== -->
-  <section class="section">
-    <div class="container">
-      <h2>Results</h2>
-      <p class="narrow center">[[Optional sentence introducing the qualitative results below.]]</p>
-      <div class="gallery">
-        <figure>
-          <img src="static/images/result1.png" alt="[[Result 1]]">
-          <figcaption>[[Caption for result 1]]</figcaption>
-        </figure>
-        <figure>
-          <img src="static/images/result2.png" alt="[[Result 2]]">
-          <figcaption>[[Caption for result 2]]</figcaption>
-        </figure>
-        <figure>
-          <img src="static/images/result3.png" alt="[[Result 3]]">
-          <figcaption>[[Caption for result 3]]</figcaption>
-        </figure>
-        <figure>
-          <img src="static/images/result4.png" alt="[[Result 4]]">
-          <figcaption>[[Caption for result 4]]</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== BIBTEX ===================== -->
-  <section class="section alt">
-    <div class="container narrow">
-      <h2>BibTeX</h2>
-      <pre class="bibtex"><code>@inproceedings{zhu2026training,
-  title     = {Training Humans to Teach Robots: Large and Lasting Skill Gains},
-  author    = {Zhu, Yuqing and Sun, Endong and Howard, Matthew},
-  booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
-  year      = {2026}
-}</code></pre>
     </div>
   </section>
 
