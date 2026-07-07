@@ -82,6 +82,21 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   letter-spacing: 0.3px;
 }
 
+/* Small pill that labels each paper's venue (ICML 2026 / ICRA 2026) */
+.venue-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-title);
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  border-radius: 999px;
+  margin: 0 0 18px;
+}
+
 /* ---------------- Link buttons ---------------- */
 .link-buttons {
   display: flex;
@@ -119,6 +134,18 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
   text-align: center;
   margin: 0 0 28px;
 }
+
+/* Second paper presented as its own centered block (title, authors, video) */
+.paper-block { text-align: center; padding: 56px 0; }
+.paper-title {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  margin: 0 0 22px;
+}
+.paper-block .video-wrapper { margin-top: 36px; }
 
 .teaser { padding-top: 40px; padding-bottom: 24px; }
 
@@ -206,6 +233,8 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 @media (max-width: 640px) {
   body { font-size: 16px; }
   .title { font-size: 1.9rem; }
+  .paper-title { font-size: 1.6rem; }
   .gallery { grid-template-columns: 1fr; }
   .hero { padding: 40px 0 28px; }
+  .paper-block { padding: 40px 0; }
 }

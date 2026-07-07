@@ -1,22 +1,27 @@
-# Training Humans to Teach Robots: Large and Lasting Skill Gains
+# Robot Learning from Novice Teachers — project page
 
-Project page for our **ICRA 2026** paper, by Yuqing Zhu, Endong Sun, and Matthew Howard.
+A single page hosting two related papers, by Yuqing Zhu, (Endong Sun,) and Matthew Howard:
+
+1. **ICML 2026** — *Making Learner Weakness Actionable for Learning from Demonstration with Novice Teachers* (CLASP) — shown first.
+2. **ICRA 2026** — *Training Humans to Teach Robots: Large and Lasting Skill Gains* — with project video.
 
 ## 🔗 Live site (published)
 
 **https://yqzhu19.github.io/training-humans-to-teach-robots/**
 
-- 📄 Paper (PDF): [open in repo](static/pdf/paper.pdf) · [open on live site](https://yqzhu19.github.io/training-humans-to-teach-robots/static/pdf/paper.pdf)
+- 📄 ICML paper (PDF): [in repo](static/pdf/icml.pdf) · [live](https://yqzhu19.github.io/training-humans-to-teach-robots/static/pdf/icml.pdf)
+- 📄 ICRA paper (PDF): [in repo](static/pdf/paper.pdf) · [live](https://yqzhu19.github.io/training-humans-to-teach-robots/static/pdf/paper.pdf)
 - 💻 Repo: https://github.com/yqzhu19/training-humans-to-teach-robots
 
 ## What's here
 
 ```
-index.html              # the page
+index.html              # the page (ICML paper first, then ICRA project + video)
 static/css/style.css    # styling (change colors in the :root block at the top)
-static/images/          # teaser, method, and result figures (replace the placeholders)
-static/pdf/paper.pdf    # the paper
-static/videos/          # drop a local demo.mp4 here if not using YouTube
+static/pdf/icml.pdf     # ICML 2026 paper
+static/pdf/paper.pdf    # ICRA 2026 paper
+ICRA26_1579_VI_fi.mp4   # ICRA project video (repo root)
+static/images/          # teaser, method, and result figures (unused by the slim page)
 ```
 
 ## How to edit
