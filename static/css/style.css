@@ -75,6 +75,15 @@ a:hover { color: var(--accent-dark); text-decoration: underline; }
 }
 .affiliations span { margin: 0 8px; white-space: nowrap; }
 
+/* One-line summary under the featured paper */
+.tagline {
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.5;
+  max-width: 640px;
+  margin: 0 auto 26px;
+}
+
 .conference {
   font-weight: 700;
   color: var(--accent-dark);
